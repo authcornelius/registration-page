@@ -240,7 +240,6 @@ section{
     .second-col{
         width: 45vh;
         /* margin: 0vh 1vh; */
-        /* margin: auto; */
-        border: 1px solid blue;
+        margin: auto;
     }
 }
