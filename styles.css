@@ -238,7 +238,8 @@ section{
         padding: 0vh 2vh;
     }
     .second-col{
-        width: 30vh;
-        margin: 0vh 1vh;
+        /* width: 35vh; */
+        /* margin: 0vh 1vh; */
+        margin: auto;
     }
 }
