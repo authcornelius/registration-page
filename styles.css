@@ -4,7 +4,7 @@
 }
 body{
     background-color: #ff7978;
-    background-image: url(./bg-intro-desktop.png);
+    background-image: url(bg-intro-desktop.png);
     border: none;
     margin: 0;
     padding: 0;
@@ -72,7 +72,7 @@ section{
     color: red;
     font-size: 10px;
     text-align: right;
-    /* padding-right: 10px; */
+    display: none;
 }
 .second-col form .input{
     margin-bottom: 15px;
@@ -90,6 +90,7 @@ section{
     width: 3vh;
     height: 3vh;
     margin-top: 10px;
+    display: none;
 }
 
 .second-col form button{
@@ -119,7 +120,7 @@ section{
 @media all and (max-width: 841px){
     body{
         background-color: #ff7978;
-        background-image: url(./bg-intro-mobile.png);
+        background-image: url(bg-intro-mobile.png);
     }
     h1{
         font-size: 2rem;
@@ -185,6 +186,14 @@ section{
     }
     .second-col button{
         width: 40vh;
+    }
+    .second-col form img{
+        width: 3vh;
+        height: 3vh;
+    }
+    .second-col form .inputField{
+        width: 20vh;
+        padding: 0vh 5vh;
     }
 }
 @media all and (max-width: 375px){

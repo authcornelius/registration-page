@@ -24,39 +24,39 @@
         <div class="button">
           <button>Try it free 7days <span>then $20/mo. thereafter</span></button>
         </div>
-        <form action="">
+        <form id="form" action="">
           <div class="input ">
             <div class="inputField">
-              <input type="text" placeholder="First Name"/>
-              <img src="icon-error.svg" alt="error" class="errorDisplay" hidden>
+              <input id="fName" type="text" placeholder="First Name"/>
+              <img src="icon-error.svg" alt="error" class="errorDisplay">
             </div>
-            <p class="error" class="errorDisplay" hidden><i>First Name cannot be empty</i></p>
+            <p class="error" id="errorfName" ><i>First Name cannot be empty</i></p>
           </div>
 
           <div class="input ">
             <div class="inputField">
-              <input type="text" placeholder="Last Name"/>
-              <img src="icon-error.svg" alt="error" class="errorDisplay" hidden>
+              <input id="lName" type="text" placeholder="Last Name"/>
+              <img src="icon-error.svg" alt="error" class="errorDisplay">
             </div>
-            <p class="error" class="errorDisplay" hidden><i>Last Name cannot be empty</i></p>
+            <p class="error" id="errorLname" ><i>Last Name cannot be empty</i></p>
           </div>
 
           <div class="input ">
             <div class="inputField">
-              <input type="email" placeholder="Email Address"/>
-              <img src="icon-error.svg" alt="error" class="errorDisplay" hidden>
+              <input id="email" type="email" placeholder="Email Address"/>
+              <img src="icon-error.svg" alt="error" class="errorDisplay">
             </div>
-            <p class="error" class="errorDisplay" hidden><i>Looks like this is not an email</i></p>
+            <p class="error" id="errorEmail"><i>Looks like this is not an email</i></p>
           </div>
 
           <div class="input ">
             <div class="inputField">
-              <input type="password" placeholder="Password"/>
-              <img src="icon-error.svg" alt="error" class="errorDisplay" hidden>
+              <input id="password" type="password" placeholder="Password"/>
+              <img src="icon-error.svg" alt="error" class="errorDisplay">
             </div>
-            <p class="error" class="errorDisplay" hidden><i>Password cannot be empty</i></p>
+            <p class="error" class="errorDisplay" id="errorPassword"><i>Password cannot be empty</i></p>
           </div>
-          <button type="submit" onclick="Confirm()">CLAIM YOUR FREE TRIAL</button>
+          <button type="submit">CLAIM YOUR FREE TRIAL</button>
           <p>
             By clicking the button, you are agreeing to our
             <a href="#">Terms and Services</a>
