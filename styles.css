@@ -238,8 +238,9 @@ section{
         padding: 0vh 2vh;
     }
     .second-col{
-        width: 20vh;
+        width: 45vh;
         /* margin: 0vh 1vh; */
-        margin: auto;
+        /* margin: auto; */
+        border: 1px solid blue;
     }
 }
