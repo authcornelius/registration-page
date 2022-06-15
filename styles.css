@@ -239,6 +239,7 @@ section{
     }
     .second-col{
         width: 30vh;
-        margin: 0vh 0.5vh;
+        /* margin: 0vh 0.5vh; */
+        margin: auto;
     }
 }
