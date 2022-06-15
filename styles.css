@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ff7978;
+    background-image: url(./bg-intro-desktop.png);
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+section{
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    margin: 15vh 0vh;
+}
+
+.first-col{
+    color: #fff;
+    width: 69vh;
+    margin: 20vh 3vh;
+}
+.first-col h1{
+    width: 50vh;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.first-col p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 23px;
+}
+
+.second-col{
+    width: 69vh;
+    margin: 0px 10px;
+}
+
+.second-col button{
+    width: 55vh;
+    border-radius: 5px;
+    border: none;
+    background-color: #5d54a3;
+    height: 7vh;
+    margin-bottom: 3vh;
+    color: #fff;
+    box-shadow: 0px 7px 6px 0px #05050f67;
+}
+.second-col span{
+    color: #ccc6c6;
+}
+
+.second-col form{
+    background-color: #fff;
+    width: 45vh;
+    border-radius: 10px;
+    padding: 5vh 5vh;
+    box-shadow: 0px 7px 6px 0px #05050f77;
+}
+.second-col form .inputField{
+    display: flex;
+    width: 40.5vh;
+    border-radius: 5px;
+    border: 2px solid #f5f5f5;
+    padding: 0vh 2vh;
+}
+.second-col .input p{
+    color: red;
+    font-size: 10px;
+    text-align: right;
+    /* padding-right: 10px; */
+}
+.second-col form .input{
+    margin-bottom: 15px;
+}
+.second-col form input{
+    width: 39vh;
+    padding: 2vh 0vh;
+    border: none;
+}
+.second-col form input:focus{
+    border: none;
+    outline: none;
+}
+.second-col form img{
+    width: 3vh;
+    height: 3vh;
+    margin-top: 10px;
+}
+
+.second-col form button{
+    background-color: #77e2b4;
+    height: 6vh;
+    color: #fff;
+    font-weight: bolder;
+    width: 45.5vh;
+    margin-bottom: 1vh;
+    box-shadow: none;
+}
+.second-col form p{
+    font-size: 8px;
+    text-align: center;
+    color: #beaf9a;
+    margin-top: 5px;
+}
+.second-col form p a{
+    color: #e46262;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+
+
+@media all and (max-width: 841px){
+    body{
+        background-color: #ff7978;
+        background-image: url(./bg-intro-mobile.png);
+    }
+    h1{
+        font-size: 2rem;
+        margin: auto;
+        text-align: center;
+    }
+    .first-col p{
+        font-size: 1rem;
+        text-align: center;
+    }   
+    section{
+        display: block;
+    }
+    .button{
+        text-align: center;
+    }
+    .second-col button{
+        width: 45vh;
+    }
+    .first-col{
+        margin: auto;
+        margin-bottom: 10vh;
+        color: #fff;
+        width: 40vh;
+    }
+    .first-col h1{
+        width: 40vh;
+    }
+    .second-col form{
+        margin: auto;
+        width: 35vh;
+    }
+    .second-col form input{
+        width: 25vh;
+    }
+    .second-col form button{
+        width: 30vh;
+    }
+    .second-col{
+        width: 69vh;
+        margin-left: 10vh;
+        margin: auto;
+    }
+    .second-col form .inputField{
+        display: flex;
+        width: 30.5vh;
+        border-radius: 5px;
+        border: 2px solid #f5f5f5;
+        padding: 0vh 2vh;
+    }
+    .second-col{
+        width: 40vh;
+        margin: auto;
+    }
+    .second-col .input p{
+        margin: auto;
+    }
+    .second-col form{
+        width: 30vh;
+    }
+    .second-col form .inputField{
+        width: 25vh;
+    }
+    .second-col button{
+        width: 40vh;
+    }
+}
+@media all and (max-width: 375px){
+    .second-col form{
+        width: 35vh;
+    }
+    .second-col form input{
+        width: 31vh;
+    }
+    
+    .second-col form button{
+        width: 35vh;
+    }
+    .second-col form p{
+        font-size: 11px;
+    }
+    .second-col button{
+        width: 45vh;
+    }
+
+    .first-col{
+        width: 45vh;
+    }
+    .first-col h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .first-col p{
+        font-size: 0.9rem;
+        text-align: center;
+    }      
+    .second-col form input{
+        width: 20vh;
+        padding: 2vh 0vh;
+        border: none;
+    }
+    .second-col form .inputField{
+        display: flex;
+        width: 30.5vh;
+        border-radius: 5px;
+        border: 2px solid #f5f5f5;
+        padding: 0vh 2vh;
+    }
+    .second-col{
+        width: 30vh;
+        margin: 0vh 0.5vh;
+    }
+}
